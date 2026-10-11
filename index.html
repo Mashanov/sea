@@ -248,7 +248,7 @@ input[type=text]{width:100%;padding:12px;border-radius:10px;border:1px solid rgb
         <button class="btn" id="btn-shop">🛒 <span data-i18n="shop">Магазин</span></button>
         <button class="btn" id="btn-settings">⚙️ <span data-i18n="settings">Настройки</span></button>
         <button class="btn" id="btn-daily">🎁 <span data-i18n="daily">Ежедневная награда</span></button>
-        <button class="btn" id="btn-afk">🛏️ <span data-i18n="afk">Комната АФК</span></button>
+        <button class="btn" id="btn-afk">🛏️ <span data-i18n="afk">Комната отдыха</span></button>
         <button class="btn" id="btn-invite">👥 <span data-i18n="invite">Пригласить друзей</span></button>
       </div>
       <div class="muted" id="hud-stats" style="text-align:center"></div>
@@ -312,7 +312,7 @@ input[type=text]{width:100%;padding:12px;border-radius:10px;border:1px solid rgb
   </div></div>
 
   <div class="overlay" id="ov-afk"><div class="modal">
-    <h2 data-i18n="afk">🛏️ Комната АФК</h2>
+    <h2 data-i18n="afk">🛏️ Комната отдыха</h2>
     <p class="muted" data-i18n="afkHint">Пока это окно открыто, каждую минуту вам капает валюта. Отдыхайте, адмирал!</p>
     <div class="big" style="text-align:center">💰 <span id="afk-earned">0</span></div>
     <button class="btn" id="afk-close" data-i18n="close">Закрыть</button>
@@ -393,7 +393,7 @@ if(vk) vk.send('VKWebAppGetLaunchParams').then(()=>vk.send('VKWebAppShowBannerAd
 /* ============ I18N ============ */
 const I18N = {
   ru:{title:'Морской бой',play:'Играть',missions:'Задания',settings:'Настройки',daily:'Ежедневная награда',
-    afk:'Комната АФК',invite:'Пригласить друзей',music:'Музыка',language:'Язык',promo:'Промокод',apply:'Применить',
+    afk:'Комната отдыха',invite:'Пригласить друзей',music:'Музыка',language:'Язык',promo:'Промокод',apply:'Применить',
     close:'Закрыть',on:'Вкл',off:'Выкл',placeTitle:'Расставьте флот',rotate:'Повернуть',random:'Случайно',clear:'Очистить',
     ready:'В бой!',placeHint:'Выберите корабль, коснитесь поля. Двойное касание — поворот.',yourFleet:'Ваш флот',
     enemyFleet:'Флот противника',afkHint:'Пока это окно открыто, каждую минуту вам капает валюта. Отдыхайте, адмирал!',
